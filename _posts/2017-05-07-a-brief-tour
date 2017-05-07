@@ -13,7 +13,7 @@ For those with a more technical leaning, here's the rundown on what I'm using:
 - msgpack-d (ie. MessagePack) for serialization (save games, debug game state snapshots, dialogue database)
 - Python for miscellaneous scripts
 
-I'll dive into each of these in more in detail at a later date. I'm rolling a custom engine for a couple reasons:
+I'll dive into each of these in more in detail at a later date. I'm rolling a custom engine for a few reasons:
 
 - I come from a programming background, so I have some familiarity with the lower-level workings of games
 - This will be a 2D game, which greatly simplifies the engine

@@ -37,7 +37,7 @@
           <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
         </h1>
         
-        Posted {{ page.date }}
+        Posted {{ page.date | date: "%B %-d, %Y" }}
         
         {{ content }}
 

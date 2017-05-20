@@ -11,7 +11,7 @@ Stephen's Sausage Roll is one of the most challenging, rewarding, and well desig
 
 I'm a programmer by trade, so it's no surprise I like puzzle games. And because of the whole programming thing, I probably have above-average grit when it comes to puzzle games. I won't look up hints until I've spent three or more hours on an individual puzzle, utterly stumped.
 
-There is a puzzle in Stephen's Sausage Roll called Wretch's Retreat. I spent six hours total on that level. Two of those were mapping out all possible avenues that might lead to a solution. The other four were checking and re-checking my reasoning, retrying my attempts in order to figure out what I had missed. In these four hours, I made virtually no progress.
+There is a puzzle in Stephen's Sausage Roll called Wretch's Retreat. I spent six hours total on that level. Two of those were mapping out all possible avenues that might lead to a solution. The other four were checking and re-checking my reasoning, retrying all my attempts in order to figure out what I had missed. In these four hours, I made virtually no progress.
 
 Eventually, I gave in. I turned to the internet to find the tiniest hint possible to nudge me in the right direction. I found this [steam discussion](https://steamcommunity.com/app/353540/discussions/0/357284767240671462/), which turned out to be the perfect hint.
 

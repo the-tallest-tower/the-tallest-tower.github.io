@@ -7,7 +7,7 @@ categories: development, games, sausages
 
 It is said that after experiencing a creative work of great merit, you are a different person at the end than you were when you first began. I just experienced this, in a game where you roll sausages around with a fork.
 
-[Stephen's Sausage Roll](http://www.stephenssausageroll.com/) is one of the most challenging, rewarding, and well designed puzzle games I have ever played. Go play it before reading on, because I'm about to (slightly) spoil one of the levels.
+[Stephen's Sausage Roll](http://www.stephenssausageroll.com/) is one of the most challenging, rewarding, and well designed puzzle games I have ever played. Give it a try before reading on, because I'm about to (slightly) spoil one of the levels.
 
 I'm a programmer by trade, so it's no surprise I like puzzle games. And because of the whole programming thing, I probably have above-average grit when it comes to puzzle games. I won't look up hints until I've spent three or more hours on an individual puzzle, utterly stumped.
 

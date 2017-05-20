@@ -15,7 +15,7 @@ There is a puzzle in Stephen's Sausage Roll called Wretch's Retreat. I spent six
 
 Eventually, I gave in. I turned to the internet to find the tiniest hint possible to nudge me in the right direction. I found this [Steam discussion](https://steamcommunity.com/app/353540/discussions/0/357284767240671462/), which turned out to be the perfect hint.
 
-The author outlined all of their assumptions about the rules and logic of this level, and all the possible solutions and why none of them were viable. I nodded along as I read this, these were the same assumptions I had come to. Then, in a reply to his own post, the author said:
+The author outlined all of their assumptions about the rules and logic of this level, and all the possible solutions and why none of them were viable. I nodded along as I read this, these were the same assumptions I had come to. Then, in a reply to their own post, the author said:
 
 > Nevermind, I solved it. Unbelievable. Stuck on it for so long, as soon as I make a post it hits me. If anyone is wondering, the error was assumption (#2).
 

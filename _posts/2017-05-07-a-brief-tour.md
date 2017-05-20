@@ -4,7 +4,7 @@ title:  "A Brief Tour"
 date:   2017-05-07 16:00:00 -0800
 categories: development
 ---
-For those with a more technical leaning, here's the rundown on what I'm using:
+For those with a more technical leaning, here's the rundown on what I'm using for the game:
 
 - Custom engine written in D
 - SFML for 2D graphics and windowing

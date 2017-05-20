@@ -5,7 +5,7 @@ date: 2017-05-19 18:00:00 -0800
 categories: development, games, sausages
 ---
 
-It is said that after experiencing a creative work of great merit, you will find at the end that you are a different person than when you began. I just experienced this, in a game where you roll sausages around with a fork.
+It is said that after experiencing a creative work of great merit, you are a different person at the end than you were when you first began. I just experienced this, in a game where you roll sausages around with a fork.
 
 Stephen's Sausage Roll is one of the most challenging, rewarding, and well designed puzzle games I have ever played. Go play it before reading on, because I'm about to (slightly) spoil one of the levels.
 

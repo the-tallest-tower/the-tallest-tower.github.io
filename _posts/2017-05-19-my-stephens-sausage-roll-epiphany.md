@@ -25,6 +25,6 @@ The hint hadn't told me what the solution was, or what I should try next, or wha
 
 If I had itemized my assumptions in the same way, and mechanically gone through them one by one trying actively to disprove them, I almost certainly would have arrived at the solution on my own. If I had told myself *"Okay, let's pretend for just five minutes that this thing I'm certain is true is actually false, and try to demonstrate to myself why"*, I would have found the hole in my reasoning. I've done a lot of problem solving in my life, and don't think I've ever needed explicitly needed to do this before.
 
-Thanks to Stephen's Sausage Roll, I've added a new tool to problem-solving tool belt.
+Thanks to Stephen's Sausage Roll, I've added a new tool to my problem-solving tool belt.
 
 It's also fun to see the poster of that discussion essentially discover [rubber-duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) on their own, a well-known problem-solving technique in the realm of programming.

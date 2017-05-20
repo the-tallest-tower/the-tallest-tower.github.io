@@ -27,4 +27,4 @@ If I had itemized my assumptions in the same way, and mechanically gone through 
 
 Thanks to Stephen's Sausage Roll, I've added a new tool to my problem-solving tool belt.
 
-It's also fun to see the poster of that discussion essentially discover [rubber-duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) on their own, a well-known problem-solving technique in the realm of programming.
+As an aside, it's also fun to see the poster of that discussion essentially discover [rubber-duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) on their own, a well-known problem-solving technique in the realm of programming.

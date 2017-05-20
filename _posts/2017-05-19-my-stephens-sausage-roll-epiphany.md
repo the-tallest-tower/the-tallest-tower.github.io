@@ -13,7 +13,7 @@ I'm a programmer by trade, so it's no surprise I like puzzle games. And because 
 
 There is a puzzle in Stephen's Sausage Roll called Wretch's Retreat. I spent six hours total on that level. Two of those were mapping out all possible avenues that might lead to a solution. The other four were checking and re-checking my reasoning, retrying all my attempts in order to figure out what I had missed. In these four hours, I made virtually no progress.
 
-Eventually, I gave in. I turned to the internet to find the tiniest hint possible to nudge me in the right direction. I found this [steam discussion](https://steamcommunity.com/app/353540/discussions/0/357284767240671462/), which turned out to be the perfect hint.
+Eventually, I gave in. I turned to the internet to find the tiniest hint possible to nudge me in the right direction. I found this [Steam discussion](https://steamcommunity.com/app/353540/discussions/0/357284767240671462/), which turned out to be the perfect hint.
 
 The author outlined all of their assumptions about the rules and logic of this level, and all the possible solutions and why none of them were viable. I nodded along as I read this, these were the same assumptions I had come to. Then, in a reply to his own post, the author said:
 

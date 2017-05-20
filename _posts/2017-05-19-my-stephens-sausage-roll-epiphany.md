@@ -23,7 +23,7 @@ After reading this, I solved the puzzle in thirty seconds.
 
 The hint hadn't told me what the solution was, or what I should try next, or what about my assumption was wrong. All it told me was that one of my assumptions was wrong. Which, of course it was, otherwise I would have solved the puzzle. But simply being told which one was enough to make me question that assumption in a way I clearly had not yet, and arrive at a solution immediately.
 
-If I had itemized my assumptions in the same way, and mechanically gone through them one by one trying actively to disprove them, I almost certainly would have arrived at the solution on my own. If I had told myself *"Okay, let's pretend for just five minutes that this thing I'm certain is true is actually false, and try to demonstrate to myself why"*, I would have found the hole in my reasoning. I've done a lot of problem solving in my life, and don't think I've ever needed explicitly needed to do this before.
+If I had itemized my assumptions in the same way, and mechanically gone through them one by one trying actively to disprove them, I almost certainly would have arrived at the solution on my own. If I had told myself *"Okay, let's pretend for just five minutes that this thing I'm certain is true is actually false, and try to demonstrate to myself why"*, I would have found the hole in my reasoning. I've done a lot of problem solving in my life, and don't think I've ever explicitly needed to do this before.
 
 Thanks to Stephen's Sausage Roll, I've added a new tool to my problem-solving tool belt.
 

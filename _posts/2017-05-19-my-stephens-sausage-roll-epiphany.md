@@ -9,7 +9,7 @@ It is said that after experiencing a creative work of great merit, you will find
 
 Stephen's Sausage Roll is one of the most challenging, rewarding, and well designed puzzle games I have ever played. Go play it before reading on, because I'm about to (slightly) spoil one of the levels.
 
-I'm a programmer by trade, so it's no surprise I like puzzle games. And because of the whole programming thing, I probably have above-average grit when it comes to puzzle games. I generally won't look up a hint to an individual puzzle until I have spent three or more hours utterly stumped.
+I'm a programmer by trade, so it's no surprise I like puzzle games. And because of the whole programming thing, I probably have above-average grit when it comes to puzzle games. I won't turn to hints until I have spent three or more hours on an individual puzzle, utterly stumped.
 
 There is a puzzle in Stephen's Sausage Roll called Wretch's Retreat. I spent six hours total on that level. Two of those were mapping out all possible avenues that might lead to a solution. The other four were checking and re-checking my reasoning, retrying my attempts in order to figure out what I had missed. In these four hours, I made virtually no progress.
 

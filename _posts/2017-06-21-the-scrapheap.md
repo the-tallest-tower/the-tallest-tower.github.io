@@ -9,7 +9,7 @@ Mini-update: I just finished implementing a "scrapheap" to supplement the D garb
 
 - A 16 MB pre-allocated chunk of memory, acquired from the OS on startup and never released
 - Other code can allocate into that chunk using a dead simple bump-the-pointer stack
-- The stack is reset at the end of each frame, and so the 16MB is "freed" and available for use again
+- The stack is reset at the end of each frame, therefore "freeing" the 16MB and making it available for use again
 
 It's very desirable to be able to allocate small amounts of short-lived memory without having to think too much about it. For example, when parsing string input, I might do the following:
 

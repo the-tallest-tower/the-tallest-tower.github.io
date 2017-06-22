@@ -21,7 +21,7 @@ bool DoesItMatch()
 }
 ```
 
-Being able to do all that string manupulation in one line is really nice. I don't have to allocate buffers or wrangle character arrays, it's all taken care of. In D though, the dark side of this is that it allocates several times, even though once this function returns, I don't use any of the allocations ever again.
+Being able to do all that string manupulation in one line is really nice. I don't have to allocate buffers or wrangle character arrays, it's all taken care of. In D though, normally this allocates several times via the GC, even though once this function returns, I don't use any of the allocations ever again.
 
 Enter the scrapheap.
 

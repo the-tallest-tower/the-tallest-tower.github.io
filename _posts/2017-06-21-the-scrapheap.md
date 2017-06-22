@@ -42,7 +42,9 @@ For use cases like this, a scrapheap allocator the best of both worlds. Convenie
 
 We use a stack to keep track of the currently-active allocator. That way we can switch to scrapheap mode for a large function, but then inside have a single function call that switches back to GC mode, and then inside of that have a subsection that uses the scrapheap, and so on. Switching to GC mode is what you'd expect:
 
-```mixin(ScopeGC!());```
+```
+mixin(ScopeGC!());
+```
 
 We have a separate allocator stack per thread for obvious reasons. We can easily add new allocators to this allocator stack model if we decide to in the future.
 

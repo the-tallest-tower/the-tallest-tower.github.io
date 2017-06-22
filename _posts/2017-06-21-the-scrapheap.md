@@ -48,4 +48,4 @@ mixin(ScopeGC!());
 
 We have a separate allocator stack per thread for obvious reasons. With this model we can easily add new allocators if we decide to in the future.
 
-This whole throwaway memory stack idea is not even remotely new. Despite this, the conventional wisdom I always remembered hearing when discussing memory management was that _"Allocating is always going to be expensive."_ But evidently, this doesn't have to be the case.
+This whole throwaway memory stack idea is not even remotely new. Despite this, when discussing memory management the conventional wisdom I always remember hearing was that _"Allocating is always going to be expensive."_ But evidently, this doesn't have to be the case.

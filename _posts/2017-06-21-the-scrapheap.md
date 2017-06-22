@@ -46,6 +46,6 @@ We use a stack to keep track of the currently-active allocator. That way we can 
 mixin(ScopeGC!());
 ```
 
-We have a separate allocator stack per thread for obvious reasons. We can easily add new allocators to this allocator stack model if we decide to in the future.
+We have a separate allocator stack per thread for obvious reasons. With this model we can easily add new allocators if we decide to in the future.
 
 This whole throwaway memory stack idea has been around for a long time. Despite this, the conventional wisdom I always remembered hearing when discussing memory management was that _"Allocating is always going to be expensive."_ But evidently, this doesn't have to be the case.

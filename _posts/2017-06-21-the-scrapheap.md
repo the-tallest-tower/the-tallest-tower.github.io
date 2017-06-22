@@ -16,8 +16,8 @@ It's very desirable to be able to allocate small amounts of short-lived memory w
 ```
 bool DoesItMatch()
 {
-  string[] optionWords = optionText.strip().removechars(".,!'").toLower().split();
-  return optionWords == someOtherThing;
+    string[] optionWords = optionText.strip().removechars(".,!'").toLower().split();
+    return optionWords == someOtherThing;
 }
 ```
 
@@ -30,9 +30,9 @@ To enable it, I add one line to the beginning of this scope:
 ```
 bool DoesItMatch()
 {
-  mixin(ScopeScrapheap!());
-  string[] optionWords = optionText.strip().removechars(".,!'").toLower().split();
-  return optionWords == someOtherThing;
+    mixin(ScopeScrapheap!());
+    string[] optionWords = optionText.strip().removechars(".,!'").toLower().split();
+    return optionWords == someOtherThing;
 }
 ```
 

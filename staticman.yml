@@ -36,12 +36,12 @@ comments:
     date:
       type: date
       options:
-        format: "timestamp-seconds"
+        format: "iso8601"
 
   # Whether entries need to be appproved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
   # Otherwise, entries will be published to the main branch automatically.
-  moderation: true
+  moderation: false
 
   # Name of the site. Used in notification emails.
   name: "The Tallest Tower Development Blog"
@@ -66,7 +66,7 @@ comments:
   # (*) REQUIRED
   #
   # Destination path (directory) for the data files. Accepts placeholders.
-  path: "_data/comments/{@timestamp}"
+  path: "_data/comments/{options.slug}"
 
   # Names of required files. If any of these isn't in the request or is empty,
   # an error will be thrown.
@@ -75,4 +75,4 @@ comments:
   # List of transformations to apply to any of the fields supplied. Keys are
   # the name of the field and values are possible transformation types.
   transforms:
-email: md5
+    email: md5

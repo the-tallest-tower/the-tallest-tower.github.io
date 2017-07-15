@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Scrapheap"
-date: 2017-06-21 18:00:00 -0800
+date: 2017-06-21 18:00:00
 categories: development, programming, tech
 ---
 

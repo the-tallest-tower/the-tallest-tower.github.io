@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Brief Tour"
-date:   2017-05-07 16:00:00 -0800
+date:   2017-05-07 16:00:00
 categories: development
 ---
 For those with a more technical leaning, here's the rundown on what I'm using for the game:

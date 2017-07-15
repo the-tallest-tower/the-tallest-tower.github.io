@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My Stephen's Sausage Roll Epiphany"
-date: 2017-05-19 18:00:00 -0800
+date: 2017-05-19 18:00:00
 categories: development, games, sausages
 ---
 

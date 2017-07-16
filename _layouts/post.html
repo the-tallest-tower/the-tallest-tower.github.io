@@ -81,13 +81,13 @@
         
         {% if page.previous != nil %}
           <div style="float: left;">
-            <a href="{{ site.baseurl }}{{ page.previous.url }}">&lt; {{ page.previous.title }}</a>
+            <a href="{{ site.baseurl }}{{ page.previous.url }}">&lt;&nbsp;&nbsp; {{ page.previous.title }}</a>
           </div>
         {% endif %}
         
         {% if page.next != nil %}
           <div style="float: right;">
-            <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }} &gt;</a>
+            <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }} &nbsp;&nbsp;&gt;</a>
           </div>
         {% endif %}
 

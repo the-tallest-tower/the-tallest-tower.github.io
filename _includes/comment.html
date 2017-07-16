@@ -6,7 +6,8 @@
 <br />
 
 {% if include.date %}
-  <div style="color: grey; font-size: 12px">{{ include.date }}</div>
+  <!-- <div style="color: grey; font-size: 12px">{{ include.date }}</div> -->
+  <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: "%B %d, %Y at %I:%M %p" }}</time>
 {% endif %}
 <br />
 

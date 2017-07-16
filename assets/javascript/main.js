@@ -20,7 +20,7 @@
       success: function (data) {
         $('#comment-form-submit').html('Submitted!');
         $('.post-comments-form .js-notice').removeClass('notice-danger').addClass('notice-success');
-        showAlert('<strong>Thanks for posting!</strong> Your comment will appear as soon as it finishes processing.');
+        showAlert('<strong>Thanks for posting!</strong> Your comment will appear in a few minutes once it finishes processing.');
       },
       error: function (err) {
         $('#comment-form-submit').html('Submit Comment');

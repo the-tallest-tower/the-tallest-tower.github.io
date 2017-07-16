@@ -4,9 +4,8 @@
 
   $('#comment-form').submit(function () {
     var form = this;
-
-    $(form).attr('disabled', true);
-    $(form).addClass('disabled');
+    
+    $('#comment-form-submit').attr('disabled', true);
     
     $('.post-comments-form .js-notice').addClass('hidden');
     $('.post-comments-form .js-notice').attr('hidden', true);
@@ -25,10 +24,9 @@
       },
       error: function (err) {
         $('#comment-form-submit').html('Submit Comment');
+        $('#comment-form-submit').attr('disabled', false);
         $('.post-comments-form .js-notice').removeClass('notice-success').addClass('notice-danger');
         showAlert('<strong>Uh-oh, something went wrong.</strong> Double-check that all required fields have been filled in and try again.');
-        $(form).removeClass('disabled');
-        $(form).attr('disabled', false);
       }
     });
 

@@ -3,4 +3,5 @@ About the game
 Custom 404
 Staging area
 RSS feed support
+Gravatar
 Threaded comments

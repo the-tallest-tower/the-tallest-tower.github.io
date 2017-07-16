@@ -98,7 +98,7 @@
       
       {% assign pageid = page.id | slugify %}
       
-      {% assign comments = site.data.comments[page.slug] | sort %}
+      {% assign comments = site.data.comments[page.slug] %}
       
       {% comment %}
       {% for comment in comments %}

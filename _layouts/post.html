@@ -35,6 +35,7 @@
         -moz-border-radius: 8px;
         border-radius: 8px;
         padding: 8px;
+        width: 50%;
       }
       textarea:focus, input:focus {
         outline: none;
@@ -77,10 +78,10 @@
         <input name="options[pageid]" type="hidden" value="{{ page.id | slugify}}">
         <input type="hidden" name="fields[hidden]">
         
-        <input name="fields[name]" type="text" placeholder="Name" size="40" maxlength="100"/>
+        <input name="fields[name]" type="text" placeholder="Name" maxlength="100"/>
         <br /><br />
         
-        <input name="fields[email]" type="email" placeholder="Email (optional, will not be published)" size="40" maxlength="100"/>
+        <input name="fields[email]" type="email" placeholder="Email (optional, will not be published)" maxlength="100"/>
         <br /><br />
         
         <textarea name="fields[message]" placeholder="Comment" rows="12" maxlength="3000" style="width:100%;"></textarea>

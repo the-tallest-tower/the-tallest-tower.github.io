@@ -84,7 +84,9 @@
         {% endif %}
         
         {% if page.next != nil %}
-          <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a>
+          <div alight="right">
+            <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a>
+          </div>
         {% endif %}
 
       </section>

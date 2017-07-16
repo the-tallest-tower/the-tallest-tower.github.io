@@ -79,12 +79,12 @@
 
       </section>
       
-      <form method="POST" action="https://api.staticman.net/v2/entry/the-tallest-tower/the-tallest-tower.github.io/master/comments">
+      <form id="comment-form" class="post-comments-form" method="POST" action="https://api.staticman.net/v2/entry/the-tallest-tower/the-tallest-tower.github.io/master/comments">
         <h2>Comments</h2>
         <br />
         
-        <input name="options[pageid]" type="hidden" value="{{ page.id | slugify}}">
-        <input type="hidden" name="fields[hidden]">
+        <input name="options[pageid]" type="hidden" value="{{ page.id | slugify}}" />
+        <input type="hidden" name="fields[hidden]" />
         
         <input name="fields[name]" type="text" placeholder="Name" maxlength="100"/>
         <br /><br />
@@ -95,7 +95,11 @@
         <textarea name="fields[message]" placeholder="Comment" rows="12" maxlength="3000" style="width:100%;"></textarea>
         <br /><br />
       
-        <button type="submit" class="submit-button">Post Comment</button>
+        <p class="hidden js-notice">
+          <span class="js-notice-text"></span>
+        </p>
+        
+        <button id="comment-form-submit" type="submit" class="submit-button">Post Comment</button>
     </form>
 
     </div>

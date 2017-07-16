@@ -98,14 +98,15 @@
       
       {% assign pageid = page.id | slugify %}
       
-      {% assign comments = site.data.comments[pageid] %}
-      
-      {% for comment in comments %}
-        {% assign name = comment[1].name %}
-        {% assign message = comment[1].message %}
-        {% assign date = comment[1].date %}
-        {% include comment.html index=forloop.index name=name message=message date=date %}
-      {% endfor %}
+      {% if site.data.comments[pageid] %}
+        {% assign comments = site.data.comments[pageid] | sort %}
+        {% for comment in comments %}
+          {% assign name = comment[1].name %}
+          {% assign message = comment[1].message %}
+          {% assign date = comment[1].date %}
+          {% include comment.html index=forloop.index name=name message=message date=date %}
+        {% endfor %}
+      {% endif %}
       
       <form id="comment-form" class="post-comments-form" method="POST" action="https://api.staticman.net/v2/entry/the-tallest-tower/the-tallest-tower.github.io/master/comments">
         <input name="options[pageid]" type="hidden" value="{{ pageid }}" />

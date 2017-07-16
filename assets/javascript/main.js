@@ -26,7 +26,7 @@
       error: function (err) {
         $('#comment-form-submit').html('Submit Comment');
         $('.post-comments-form .js-notice').removeClass('notice-success').addClass('notice-danger');
-        showAlert('<strong>Uh-oh, something went wrong.</strong> Double-check that all fields have been filled in and try again.');
+        showAlert('<strong>Uh-oh, something went wrong.</strong> Double-check that all required fields have been filled in and try again.');
         $(form).removeClass('disabled');
         $(form).attr('disabled', false);
       }

@@ -73,9 +73,19 @@
         </h1>
         
         <div class="entry-date">Posted {{ page.date | date: "%B %-d, %Y" }}</div>
-        <br>
+        <br />
         
         {{ content }}
+        
+        <br /><br />
+        
+        {% if page.previous != nil %}
+          <a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a>
+        {% endif %}
+        
+        {% if page.next != nil %}
+          <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a>
+        {% endif %}
 
       </section>
       

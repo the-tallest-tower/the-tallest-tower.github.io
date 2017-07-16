@@ -58,22 +58,16 @@
         <input name="options[pageid]" type="hidden" value="{{ page.id | slugify}}">
         <input type="hidden" name="fields[hidden]">
         
-        <label>Name</label>
-        <br />
-        <input name="fields[name]" type="text" size="40" maxlength="100"/>
+        <input name="fields[name]" type="text" placeholder="Name" size="40" maxlength="100"/>
         <br /><br />
         
-        <label>E-mail (optional, will not be published)</label>
-        <br />
-        <input name="fields[email]" type="email" size="40" maxlength="100"/>
+        <input name="fields[email]" type="email" placeholder="Email (optional, will not be published)" size="40" maxlength="100"/>
         <br /><br />
         
-        <label>Message</label>
-        <br />
-        <textarea name="fields[message]" placeholder="Leave a thought" rows="12" cols="75" maxlength="3000"></textarea>
+        <textarea name="fields[message]" placeholder="Comment" rows="12" cols="75" maxlength="3000"></textarea>
         <br /><br />
       
-        <button type="submit">Submit Comment</button>
+        <button type="submit">Post Comment</button>
     </form>
 
     </div>

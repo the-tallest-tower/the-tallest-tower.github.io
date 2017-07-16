@@ -10,6 +10,8 @@
     
     $('.post-comments-form .js-notice').addClass('hidden');
     $('.post-comments-form .js-notice').attr('hidden', true);
+    
+    $('#comment-form-submit').html('Submitting...');
 
     $.ajax({
       type: $(this).attr('method'),

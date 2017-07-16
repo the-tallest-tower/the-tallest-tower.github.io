@@ -1,2 +1,4 @@
+Previous/Next
+About the game
 RSS feed support
-Comment section
+Custom 404

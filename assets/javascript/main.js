@@ -5,6 +5,7 @@
   $('#comment-form').submit(function () {
     var form = this;
 
+    $(form).attr('disabled', true);
     $(form).addClass('disabled');
 
     $.ajax({
@@ -15,14 +16,14 @@
       success: function (data) {
         $('#comment-form-submit').html('Submitted');
         $('.post-comments-form .js-notice').removeClass('notice--danger').addClass('notice--success');
-        showAlert('<strong>Thanks for your comment!</strong> It will show on the site once it has been approved.');
+        showAlert('<strong>Thanks for posting!</strong> Your comment will appear as soon as it finishes processing.');
       },
       error: function (err) {
-        console.log(err);
         $('#comment-form-submit').html('Submit Comment');
         $('.post-comments-form .js-notice').removeClass('notice--success').addClass('notice--danger');
-        showAlert('<strong>Sorry, there was an error with your submission.</strong> Please make sure all required fields have been completed and try again.');
+        showAlert('<strong>Uh-oh, something went wrong.</strong> Double-check that all fields have been filled in and try again.');
         $(form).removeClass('disabled');
+        $(form).attr('disabled', false);
       }
     });
 

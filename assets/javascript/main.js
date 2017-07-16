@@ -19,7 +19,7 @@
       data: $(this).serialize(),
       contentType: 'application/x-www-form-urlencoded',
       success: function (data) {
-        $('#comment-form-submit').html('Submitted');
+        $('#comment-form-submit').html('Submitted!');
         $('.post-comments-form .js-notice').removeClass('notice-danger').addClass('notice-success');
         showAlert('<strong>Thanks for posting!</strong> Your comment will appear as soon as it finishes processing.');
       },

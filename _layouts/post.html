@@ -98,6 +98,7 @@
       
       {% assign pageid = page.id | slugify %}
       
+      {% comment %}
       {% assign comments = site.data.comments[pageid] | sort %}
       {% for comment in comments %}
         {% assign name = comment[1].name %}
@@ -105,6 +106,7 @@
         {% assign date = comment[1].date %}
         {% include comment.html index=forloop.index name=name message=message date=date %}
       {% endfor %}
+      {% endcomment %}
       
       <form id="comment-form" class="post-comments-form" method="POST" action="https://api.staticman.net/v2/entry/the-tallest-tower/the-tallest-tower.github.io/master/comments">
         <input name="options[pageid]" type="hidden" value="{{ pageid }}" />

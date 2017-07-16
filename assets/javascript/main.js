@@ -7,6 +7,8 @@
 
     $(form).attr('disabled', true);
     $(form).addClass('disabled');
+    
+    $('.post-comments-form .js-notice').addClass('hidden');
 
     $.ajax({
       type: $(this).attr('method'),

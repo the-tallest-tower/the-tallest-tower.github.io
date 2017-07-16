@@ -52,7 +52,7 @@
       </section>
       
       <form method="POST" action="https://api.staticman.net/v2/entry/the-tallest-tower/the-tallest-tower.github.io/master/comments">
-        <h2>Leave a comment</h2>
+        <h2>Comments</h2>
         <br />
         
         <input name="options[pageid]" type="hidden" value="{{ page.id | slugify}}">
@@ -60,17 +60,17 @@
         
         <label>Name</label>
         <br />
-        <input name="fields[name]" type="text" size="50" maxlength="100"/>
+        <input name="fields[name]" type="text" size="40" maxlength="100"/>
         <br /><br />
         
         <label>E-mail (optional, will not be published)</label>
         <br />
-        <input name="fields[email]" type="email" size="50" maxlength="100"/>
+        <input name="fields[email]" type="email" size="40" maxlength="100"/>
         <br /><br />
         
         <label>Message</label>
         <br />
-        <textarea name="fields[message]" placeholder="Leave a thought" rows="12" cols="50" maxlength="3000"></textarea>
+        <textarea name="fields[message]" placeholder="Leave a thought" rows="12" cols="75" maxlength="3000"></textarea>
         <br /><br />
       
         <button type="submit">Submit Comment</button>

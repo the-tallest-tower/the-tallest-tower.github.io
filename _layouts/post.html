@@ -96,6 +96,7 @@
       {% assign pageid = page.id | slugify %}
       
       {% if site.data.comments[pageid] %}
+        <br />
         <h2>Comments</h2>
         <br />
         {% assign comments = site.data.comments[pageid] | sort %}
@@ -107,9 +108,10 @@
         {% endfor %}
       {% endif %}
       
-      <br /><br />
+      <br />
       
       <h2>Leave a comment</h2>
+      <br />
       <form id="comment-form" class="post-comments-form" method="POST" action="https://api.staticman.net/v2/entry/the-tallest-tower/the-tallest-tower.github.io/master/comments">
         <input name="options[pageid]" type="hidden" value="{{ pageid }}" />
         <input type="hidden" name="fields[hidden]" />

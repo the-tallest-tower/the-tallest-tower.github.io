@@ -48,6 +48,9 @@
         padding: 12px;
         width: 190px;
       }
+      .comment-textarea {
+        width: 50%;
+      }
     </style>
   </head>
   <body>
@@ -83,7 +86,7 @@
         <input name="fields[email]" type="email" placeholder="Email (optional, will not be published)" size="40" maxlength="100"/>
         <br /><br />
         
-        <textarea name="fields[message]" placeholder="Comment" rows="12" cols="75" maxlength="3000"></textarea>
+        <textarea name="fields[message]" placeholder="Comment" rows="12" maxlength="3000" class="comment-textarea"></textarea>
         <br /><br />
       
         <button type="submit" class="submit-button">Post Comment</button>

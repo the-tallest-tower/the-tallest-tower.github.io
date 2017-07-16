@@ -2,3 +2,4 @@ Previous/Next
 About the game
 RSS feed support
 Custom 404
+Staging area

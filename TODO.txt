@@ -4,4 +4,5 @@ Custom 404
 Staging area
 RSS feed support
 Gravatar
-Threaded comments
+Threaded comments (if I start getting enough comments)
+ReCaptcha (if I start getting lots of spam)

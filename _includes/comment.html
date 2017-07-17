@@ -11,7 +11,7 @@
 <br />
 
 {% if include.message %}
-  {{ include.message | escape | replace: "\r\n", "<br />" }}
+  {{ include.message | escape | newline_to_br }}
 {% endif %}
 <br /><br /><br />
 

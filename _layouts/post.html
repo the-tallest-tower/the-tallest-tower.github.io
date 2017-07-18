@@ -97,7 +97,7 @@
       
       {% if site.data.comments[pageid] %}
         <br />
-        <h2>Comments</h2>
+        <a name="comments"><h2>Comments</h2></a>
         <br />
         {% assign comments = site.data.comments[pageid] | sort %}
         {% for comment in comments %}

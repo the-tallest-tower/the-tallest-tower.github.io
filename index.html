@@ -22,7 +22,13 @@ layout: default
       {{ content }}
     </div>
   
-    <a href="{{ site.baseurl }}{{ post.url }}#comments"><b>Comments</b></a>
+    {% assign pageid = page.id | slugify %}
+    {% if site.data.comments[pageid] %}
+      {% assign commentCount = side.data.comments[pageid] | size %}
+      <a href="{{ site.baseurl }}{{ post.url }}#comments"><b>Comments ({{ commentCount }})</b></a>
+    {% else %}
+      <a href="{{ site.baseurl }}{{ post.url }}#comments"><b>Comments</b></a>
+    {% endif %}
   
     <br><br><br><br>
   

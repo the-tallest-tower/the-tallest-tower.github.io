@@ -2,6 +2,7 @@ About the game
 Custom 404
 Staging area
 RSS feed support
+Links to twitter, steam, etc.
 Gravatar
 Threaded comments (if I start getting enough comments)
 ReCaptcha (if I start getting lots of spam)

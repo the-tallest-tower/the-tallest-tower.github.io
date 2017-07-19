@@ -2,3 +2,4 @@ theme: jekyll-theme-midnight
 permalink: :year/:month/:day/:title
 baseurl: 
 timezone: US/Pacific
+exclude: ['sourceassets']

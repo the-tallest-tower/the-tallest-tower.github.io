@@ -96,9 +96,19 @@
       {% assign pageid = page.id | slugify %}
       
       {% if site.data.comments[pageid] %}
+      
+        {% assign commentCount = site.data.comments[pageid] | size %}
+      
         <br />
-        <a name="comments"><h2>Comments</h2></a>
+      
+        {% if commentCount == 1 %}
+          <a name="comments"><h2>1 Comment:</h2></a>
+        {% else %}
+          <a name="comments"><h2>{{ commentCount }} Comments:</h2></a>
+        {% endif %}
+        
         <br />
+      
         {% assign comments = site.data.comments[pageid] | sort %}
         {% for comment in comments %}
           {% assign name = comment[1].name %}
@@ -106,6 +116,7 @@
           {% assign date = comment[1].date %}
           {% include comment.html index=forloop.index name=name message=message date=date %}
         {% endfor %}
+      
       {% endif %}
       
       <br />

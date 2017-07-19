@@ -24,7 +24,7 @@ layout: default
   
     {% assign pageid = post.id | slugify %}
     {% if site.data.comments[pageid] %}
-      {% assign commentCount = side.data.comments[pageid].size %}
+      {% assign commentCount = site.data.comments[pageid] | size %}
       <a href="{{ site.baseurl }}{{ post.url }}#comments"><b>Comments ({{ commentCount }})</b></a>
     {% else %}
       <a href="{{ site.baseurl }}{{ post.url }}#comments"><b>Comments (0)</b></a>

@@ -71,11 +71,11 @@
           <p>Development Blog</p>
         </div>
 
+        {% include staging-warning.html %}
+        
         <h1 class="entry-title">
           <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
         </h1>
-        
-        {% include staging-warning.html %}
         
         <div class="entry-date">Posted {{ page.date | date: "%B %-d, %Y" }}</div>
         <br />

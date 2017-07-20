@@ -5,6 +5,8 @@ date: 2017-05-19 18:00:00
 categories: development, games, sausages
 ---
 
+![Screenshot of Wretch's Retreat]({{ site.url }}/assets/images/Sausage.jpg "Wretch's Retreat")
+
 It is said that after experiencing a creative work of great merit, you are a different person at the end than you were when you first began. I just experienced this, in a game where you roll sausages around with a fork.
 
 [Stephen's Sausage Roll](http://www.stephenssausageroll.com/) is one of the most challenging, rewarding, and well designed puzzle games I have ever played. Give it a try before reading on, because I'm about to (slightly) spoil one of the levels.

@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    {% if site.environment == 'staging' %}
+      <meta name="robots" content="noindex">
+    {% endif %}
     <title>The Tallest Tower - Development Blog</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -36,6 +39,8 @@
           <p>Development Blog</p>
         </div>
 
+        {% include staging-warning.html %}
+        
         {{ content }}
 
       </section>

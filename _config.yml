@@ -3,3 +3,4 @@ permalink: :year/:month/:day/:title
 baseurl: 
 timezone: US/Pacific
 exclude: ['sourceassets/']
+environment: staging

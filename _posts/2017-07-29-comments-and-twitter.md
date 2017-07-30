@@ -8,4 +8,4 @@ Some updates:
 
 1. The website now has a comment section! Please post thoughts, questions, and bug reports to your heart's content. I promise to read every last one.
 
-2. The Tallest Tower is now on Twitter! Follow us, tweet at us with great vigour, and do all the other twittery things you love to do.
+2. The Tallest Tower is now on Twitter! [Follow us](https://twitter.com/tallesttower1), tweet at us with great vigour, and do all the other twittery things you love to do.

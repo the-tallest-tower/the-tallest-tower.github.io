@@ -8,7 +8,7 @@ When writing tools, keep the following motto close to your heart:
 
 > Do your job, then get out of the way.
 
-We all know what it looks like when you don't follow this. You get Adobe Creative Cloud. You get that tool you downloaded for a one-time filetype conversion, only to find the tool wanted to scan your entire computer first, set up an auto-updating system, subscribe you to its newsletter, and give you handy-dandy tips every time you open the tool.
+We all know what it looks like when you don't follow this rule. You get Adobe Creative Cloud. You get that tool you downloaded for a one-time filetype conversion, only to find the tool wanted to scan your entire computer first, set up an auto-updating system, subscribe you to its newsletter, and give you handy-dandy tips every time you open the tool.
 
 Think back to all the times you've been frustrated by a tool that assumed it was the center of the universe. Where it felt like author took every opportunity to remind you how awesome the tool was, and all the amazing things the tool can do for you that you never wanted or needed.
 

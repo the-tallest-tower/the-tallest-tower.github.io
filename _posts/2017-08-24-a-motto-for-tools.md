@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Motto for all Tools"
+title: "A Motto for Tools"
 date: 2017-08-24 19:00:00
 categories: tools, musings
 ---
@@ -20,6 +20,6 @@ The best tools I use are very specialized. They have one job, and they do it rea
 
 Case study: [Everything](http://www.voidtools.com).
 
-![Everything](blah.png "Screenshot of Everything")
+![Everything](/assets/images/Everything.png "Screenshot of Everything")
 
 You hit a hotkey, the window pops up. You type until you see what you want, then select it. The file opens. Everything closes, because its work is now done. Simple. It does its job, then gets out of the way. As a result, Everything has been part of my programming toolbelt ever since my first job in the game industry. Everything is so good at what it does that I basically don't organize folders on my computer anymore. Searching for things using Everything is a way better experience than navigating almost any organization scheme I've tried in the past. Some might throw up in their mouth at the sight of the "Folders" folder on my desktop, but I'll bet I can jump to any file on my computer using Everything much faster than they can through navigate there using the file browser.

@@ -21,7 +21,7 @@ The best tools I use are very specialized. They have one job, and they do it dam
 - Fight scope creep
 - Eliminate features that aren't truly needed
 - Keep the UI simple and focused
-- Keep your software lightweight and trim (and fast).
+- Keep your software lightweight and trim (and fast)
 
 There's nothing wrong with having many sharp, specialized tools, each finely-tuned for one particular job. I'd rather that over one tool that does a mediocre job at many things. I call this collection of tools my _programmer's toolbelt_. There's a reason carpenters carry a hammer, and a drill, and a nailgun, and a saw, and a framing square, and a level, and a tape measure...
 
@@ -29,4 +29,4 @@ My go-to case study for this philosophy is the search program [Everything](http:
 
 ![Everything](/assets/images/Everything.png "Screenshot of Everything")
 
-You hit a hotkey, a window opens. You type until you see what you want, then select it. The file opens. Everything closes, because its work is now done. Simple. It does its job, then gets out of the way. Everything's adherence to this motto is why it's such a joy to use, and why it's been part of my programmer's toolbelt ever since my first job in the game industry. 
+You hit a hotkey, a window opens. You type until you see what you want, then select it. The file opens. Everything closes, because its work is now done. Simple. It does its job, then gets out of the way. Everything's adherence to this motto is why it's such a joy to use, and why it's been part of my programmer's toolbelt since my first job in the game industry. 

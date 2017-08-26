@@ -4,13 +4,13 @@ title: "A Motto for Tools"
 date: 2017-08-24 19:00:00
 categories: tools, musings
 ---
-When writing tools, keep the following motto close to your heart:
+I propose that all software tools should adhere to the following motto:
 
 > Do your job, then get out of the way.
 
 We all know what it looks like when you don't follow this rule. You get Adobe Creative Cloud. You get that tool you downloaded for a one-time filetype conversion, only to find it wanted to scan your entire computer first, chew up 75% of your idle CPU time, set up an auto-updating system, subscribe you to its newsletter, and give you handy-dandy tips every time you open the tool.
 
-Think back to all the frustrating tools you've used that assumed they were the center of the universe. Where it felt like author took every opportunity to remind you how awesome the tool was, and all the amazing things it can do that you never wanted or needed.
+Think back to all the frustrating tools you've used that assumed they were the center of the universe. Where it felt like the author took every opportunity to remind you how awesome the tool was, and all the amazing things it can do that you never wanted or needed.
 
 It sucks, right? Don't do that.
 
@@ -18,7 +18,7 @@ A good software developer thinks like the user. They pretend they're just some p
 
 The best tools I use are very specialized. They have one job, and they do it really damned well. If you want to write a good tool, this is a valuable mindset to take. Not only will it make your tool better at its job, but it will help you fight scope creep, eliminate features that aren't actually needed, keep the UI simple and focused, and keep your software lightweight and trim (and probably fast too). There's nothing wrong with having many sharp, specialized tools, each finely-tuned for one particular job. I'd rather that over one tool that does a mediocre job at many things. I call this collection of tools my _programmer's toolbelt_. There's a reason carpenters carry a hammer, and a drill, and a nailgun, and a saw, and a framing square, and a level, and a tape measure...
 
-Case study: [Everything](http://www.voidtools.com).
+Case study: [Everything](http://www.voidtools.com). The best search program I have ever used.
 
 ![Everything](/assets/images/Everything.png "Screenshot of Everything")
 

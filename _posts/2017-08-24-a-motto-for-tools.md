@@ -4,7 +4,7 @@ title: "A Motto for Tools"
 date: 2017-08-24 19:00:00
 categories: tools, musings
 ---
-I propose that all software tools should adhere to the following motto:
+I propose that all software tools adhere to the following motto:
 
 > Do your job, then get out of the way.
 

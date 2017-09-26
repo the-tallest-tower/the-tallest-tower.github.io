@@ -8,7 +8,7 @@ I propose that all software tools adhere to the following motto:
 
 > Do your job, then get out of the way.
 
-We all know what it looks like when you don't follow this rule. You get Adobe Creative Cloud. You get that tool you downloaded for a one-time filetype conversion, only to find it wanted to scan your entire computer first, chew up 75% of your idle CPU time, set up an auto-updating system, subscribe you to its newsletter, and give you handy-dandy tips every time you open the tool.
+We all know what it looks like when you don't follow this rule. You get Adobe Creative Cloud. Or Nvidia GeForce Experience. Or Visual Studio. You get that tool you downloaded for a one-time filetype conversion, only to find it wanted to scan your entire computer first, chew up 75% of your idle CPU time, set up an auto-updating system, subscribe you to its newsletter, and give you handy-dandy tips every time you open the tool.
 
 Think about all the tools you use that assume they're the center of the universe. Where it feels like the author takes every opportunity to remind you how awesome the tool is, and all the amazing things it does that you don't want or need.
 

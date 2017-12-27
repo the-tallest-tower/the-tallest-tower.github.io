@@ -1,5 +1,4 @@
 About the game
-Staging area
 RSS feed support
 Links to twitter, steam, etc.
 Gravatar

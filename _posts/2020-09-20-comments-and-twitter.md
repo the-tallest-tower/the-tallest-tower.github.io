@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Comments and Twitter"
-date: 2017-07-29 15:00:00
+date: 2020-09-20 15:00:00
 categories: development, social
 ---
 Some updates:

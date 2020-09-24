@@ -1,3 +1,4 @@
 @echo off
-rem Serves to localhost:4000
-bundle exec jekyll serve
+start bundle exec jekyll serve
+sleep 5
+start "" http://localhost:4000/

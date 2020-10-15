@@ -1,0 +1,23 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+ul {
+    list-style-image: none;
+    list-style-type: disc;
+}
+
+.entry-date {
+    color: grey;
+    font-size: 12px; 
+}
+
+.entry-title {
+    margin-bottom: 5px;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-bottom: 12px;
+}

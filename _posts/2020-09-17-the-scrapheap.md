@@ -5,7 +5,7 @@ date: 2020-09-17 18:00:00
 categories: development, programming, tech
 ---
 
-Mini-update: I just wrote a "scrapheap" to supplement the D garbage collector. By scrapheap, I mean:
+I just wrote what I'm calling the "scrapheap" to supplement the D garbage collector. It's basically just a linear allocator:
 
 - A 16 MB pre-allocated chunk of memory, acquired from the OS on startup and never released
 - Other code can allocate into that chunk using a dead simple bump-the-pointer stack
@@ -36,7 +36,7 @@ bool DoesItMatch()
 }
 ```
 
-This mixin tells the GC that from now until the end of this scope, every allocation should be redirected to the scrapheap. Now all the allocations in this function are practically free (just the cost of bumping a pointer), and deallocation is free (resetting the pointer at the end of the frame). As long as I'm not expecting any of the allocations to outlive the frame, I'm in the clear.
+This mixin tells the GC that from now until the end of this scope, every allocation should be redirected to the scrapheap. Now all the allocations in this function are effectively free (just the cost of bumping a pointer), and deallocation is free (resetting the pointer at the end of the frame). As long as I'm not expecting any of the allocations to outlive the frame, I'm in the clear.
 
 For use cases like this, a scrapheap allocator the best of both worlds. Convenient-to-write code, without any allocation or deallocation overhead or contribution to future GC pauses. And these use cases make up a significant portion of the allocations that occur in the game each frame.
 
@@ -46,6 +46,8 @@ We use a stack to keep track of the currently-active allocator. That way we can 
 mixin(ScopeGC!());
 ```
 
-We have a separate allocator stack per thread for obvious reasons. With this model we can easily add new allocators if we decide to in the future.
+Each thread gets a separate scrapheap and allocator stack, albeit with a much smaller allocation size if they're worker threads.
 
-This whole throwaway memory stack idea is not even remotely new. Despite this, when discussing memory management the conventional wisdom I always remember hearing was _"Allocating is always going to be expensive."_ But evidently, this doesn't have to be the case.
+The scrapheap also eliminates the need for stack allocations via alloca(). Anywhere you're allocating dynamically on the stack, just use the scrapheap instead. The allocator stack model also means we can easily write additional specialized allocators if we decide to in the future.
+
+The idea of a per-frame linear allocator for throwaway memory is not even remotely new. Despite this, when discussing memory management, I still sometimes hear the refrain that _"Allocating is always going to be expensive."_ If you use the right allocation scemes in the right places, this doesn't have to be the case.

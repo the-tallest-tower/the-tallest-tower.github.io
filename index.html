@@ -11,7 +11,7 @@ layout: default
 
     {% if post.title %}
       <h1 class="entry-title">
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
       </h1>
   
       <div class="entry-date">Posted {{ post.date | date: "%B %-d, %Y" }}</div>
@@ -23,6 +23,8 @@ layout: default
     </div>
   
     {% assign pageid = post.id | slugify %}
+
+    <a href="{{ site.url }}{{ post.url }}#disqus_thread">Post a comment</a>
   
     <br><br><br><br>
   

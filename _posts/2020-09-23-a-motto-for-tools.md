@@ -3,6 +3,7 @@ layout: post
 title: "A Motto for Tools"
 date: 2020-09-23 19:00:00
 categories: tools, musings
+comments: true
 ---
 I propose that all software tools adhere to the following motto:
 

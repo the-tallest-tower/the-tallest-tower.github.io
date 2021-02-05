@@ -85,58 +85,22 @@
       
       {% assign pageid = page.id | slugify %}
       
-      {% if site.data.comments[pageid] %}
-      
-        {% assign commentCount = site.data.comments[pageid] | size %}
-      
-        <br />
-      
-        {% if commentCount == 1 %}
-          <a name="comments"><h2>1 Comment:</h2></a>
-        {% else %}
-          <a name="comments"><h2>{{ commentCount }} Comments:</h2></a>
-        {% endif %}
-        
-        <br />
-      
-        {% assign comments = site.data.comments[pageid] | sort %}
-        {% for comment in comments %}
-          {% assign name = comment[1].name %}
-          {% assign message = comment[1].message %}
-          {% assign date = comment[1].date %}
-          {% include comment.html index=forloop.index name=name message=message date=date %}
-        {% endfor %}
-      
-        <br />
-        <h2>Leave a comment</h2>
-      
-      {% else %}
-      
-        <br />
-        <a name="comments"><h2>Leave a comment</h2></a>
-      
+      {% if page.comments %}
+        <div id="disqus_thread"></div>
+        <script>
+            var disqus_config = function () {
+                this.page.url = '{{ page.url }}';
+                this.page.identifier = '{{ page.id }}';
+            };
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://the-tallest-tower.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
       {% endif %}
-      
-      <br />
-      <form id="comment-form" class="post-comments-form" method="POST" action="https://api.staticman.net/v2/entry/the-tallest-tower/the-tallest-tower.github.io/master/comments">
-        <input name="options[pageid]" type="hidden" value="{{ pageid }}" />
-        <input type="hidden" name="fields[hidden]" />
-        
-        <input name="fields[name]" type="text" placeholder="Name" maxlength="100"/>
-        <br /><br />
-        
-        <input name="fields[email]" type="email" placeholder="Email (optional, will not be published)" maxlength="100"/>
-        <br /><br />
-        
-        <textarea name="fields[message]" value="" placeholder="Comment" rows="12" maxlength="3000" style="width:100%;"></textarea>
-        <br /><br />
-      
-        <p class="hidden js-notice" hidden="true">
-          <span class="js-notice-text"></span>
-        </p>
-        
-        <button id="comment-form-submit" type="submit" class="submit-button">Post Comment</button>
-    </form>
 
     </div>
     

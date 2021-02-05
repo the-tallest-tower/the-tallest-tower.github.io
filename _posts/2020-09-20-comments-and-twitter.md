@@ -3,6 +3,7 @@ layout: post
 title: "Comments and Twitter"
 date: 2020-09-20 15:00:00
 categories: development, social
+comments: true
 ---
 Some updates:
 

@@ -3,6 +3,7 @@ layout: post
 title: "My Stephen's Sausage Roll Epiphany"
 date: 2020-09-14 18:00:00
 categories: development, games, sausages
+comments: true
 ---
 
 ![Screenshot of Wretch's Retreat]({{ site.url }}/assets/images/Sausage.jpg "Wretch's Retreat")

@@ -3,6 +3,7 @@ layout: post
 title: "The Scrapheap"
 date: 2020-09-17 18:00:00
 categories: development, programming, tech
+comments: true
 ---
 
 I just wrote what I'm calling the "scrapheap" to supplement the D garbage collector. It's basically just a linear allocator:

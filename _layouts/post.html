@@ -59,7 +59,7 @@
         </div>
 
         <h1 class="entry-title">
-          <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+          <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
         </h1>
         
         <div class="entry-date">Posted {{ page.date | date: "%B %-d, %Y" }}</div>
@@ -71,13 +71,13 @@
         
         {% if page.previous != nil %}
           <div style="float: left;">
-            <a href="{{ site.baseurl }}{{ page.previous.url }}">&lt;&nbsp; {{ page.previous.title }}</a>
+            <a href="{{ site.url }}{{ page.previous.url }}">&lt;&nbsp; {{ page.previous.title }}</a>
           </div>
         {% endif %}
         
         {% if page.next != nil %}
           <div style="float: right;">
-            <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }} &nbsp;&gt;</a>
+            <a href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }} &nbsp;&gt;</a>
           </div>
         {% endif %}
 
@@ -89,7 +89,7 @@
         <div id="disqus_thread"></div>
         <script>
             var disqus_config = function () {
-                this.page.url = '{{ page.url }}';
+                this.page.url = '{{ site.url }}{{ page.url }}';
                 this.page.identifier = '{{ page.id }}';
             };
             (function() { // DON'T EDIT BELOW THIS LINE

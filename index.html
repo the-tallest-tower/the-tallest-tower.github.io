@@ -24,7 +24,7 @@ layout: default
   
     {% assign pageid = post.id | slugify %}
 
-    <a href="{{ site.url }}{{ post.url }}#disqus_thread">Post a comment</a>
+    <a href="{{ site.url }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Post a comment</a>
   
     <br><br><br><br>
   

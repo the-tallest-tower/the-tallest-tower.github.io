@@ -51,4 +51,4 @@ Each thread gets a separate scrapheap and allocator stack, albeit with a much sm
 
 The scrapheap also eliminates the need for stack allocations via alloca(). Anywhere you're allocating dynamically on the stack, just use the scrapheap instead. The allocator stack model also means we can easily write additional specialized allocators if we decide to in the future.
 
-The idea of a per-frame linear allocator for throwaway memory is not even remotely new. Despite this, when discussing memory management, I still sometimes hear the refrain that _"Allocating is always going to be expensive."_ If you use the right allocation scemes in the right places, this doesn't have to be the case.
+The idea of a per-frame linear allocator for throwaway memory is not even remotely new. Despite this, when discussing memory management, I still sometimes hear the refrain that _"Allocating is always going to be expensive."_ If you use the right allocation schemes in the right places, this doesn't have to be the case.

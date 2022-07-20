@@ -89,7 +89,7 @@ Besides appropriateness, filter for quality too. Plenty of jokes will arrive in 
 
 No joke idea in your head is holy. There is no line that _must_ be said no matter what. If the conversation moves on, if you never get your opening, if the moment passes, let it go. Another opportunity for a new joke will come along, focus your effort on that.
 
-I plagiarized this from Colin Mochrie of Whose Line is it Anyway fame. Something tells me he might know his stuff.
+I plagiarized this rule from Colin Mochrie of Whose Line is it Anyway fame. Something tells me he might know his stuff.
 
 
 ## 8. Break the rules

@@ -6,7 +6,7 @@ categories: writing, humour, life
 comments: true
 published: true
 ---
-Ok I lied. I can't teach you how to be funny, I'm not talented enough. But whatever level of funny you're at right now, whether in writing or in everyday conversation, I might have a trick or two for wringing out a little more.
+Ok fine, I can't actually teach you how to be funny from nothing. I don't have that kind of talent. But whatever level of funny you're at right now, whether in writing or in everyday conversation, I might have a trick or two for wringing out a little more.
 
 ## 1. Move the punchline to the end
 
